@@ -91,3 +91,18 @@ SELECT
 FROM sales;
 
 Dengan begitu hasilnya lebih mudah dibaca
+
+Apa itu AS?
+AS digunakan untuk memberikan nama/alias pada hasil.
+
+Contoh:
+SELECT SUM(quantity) AS total_quantity
+FROM sales;
+
+Daripada hasil kolom bernama:
+SUM(quantity)
+
+kita mendapatkan:
+total_quantity
+
+Ini sangat penting untuk membuat query yang rapi dan profesional.
