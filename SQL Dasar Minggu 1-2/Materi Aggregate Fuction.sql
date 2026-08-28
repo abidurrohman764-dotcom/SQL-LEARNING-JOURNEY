@@ -76,3 +76,18 @@ SUM()	Menjumlahkan
 AVG()	Menghitung rata-rata
 MAX()	Nilai terbesar
 MIN()	Nilai terkecil
+
+Satu peningkatan penting: gunakan alias AS
+Query kamu sudah benar, tetapi dalam pekerjaan Data Analyst kita biasanya memberi nama yang jelas pada hasil perhitungan.
+
+Contohnya:
+
+SELECT 
+    COUNT(*) AS total_transactions,
+    SUM(quantity) AS total_quantity,
+    AVG(quantity) AS average_quantity,
+    MAX(price) AS highest_price,
+    MIN(price) AS lowest_price
+FROM sales;
+
+Dengan begitu hasilnya lebih mudah dibaca
