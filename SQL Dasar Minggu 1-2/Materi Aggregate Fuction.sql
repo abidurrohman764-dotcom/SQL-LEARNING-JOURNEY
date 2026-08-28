@@ -106,3 +106,29 @@ kita mendapatkan:
 total_quantity
 
 Ini sangat penting untuk membuat query yang rapi dan profesional.
+  
+AS (ALIAS)
+Kita pelajari sebentar sebelum masuk ke GROUP BY.
+
+Contoh 1
+SELECT product AS nama_produk
+FROM sales;
+
+Artinya:
+Ambil kolom product, tetapi tampilkan dengan nama kolom nama_produk.
+
+Contoh 2 — Aggregate Function
+SELECT 
+    SUM(quantity) AS total_barang
+FROM sales;
+
+Artinya:
+Totalkan quantity, tetapi tampilkan dengan nama kolom total_barang
+
+Contoh 3
+SELECT 
+    AVG(price) AS rata_rata_harga
+FROM sales;
+
+Artinya:
+Rata rata kan harga, tetapi tamplkan dengan nama kolom rata_rata_harga
