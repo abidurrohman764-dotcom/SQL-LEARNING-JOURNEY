@@ -44,7 +44,7 @@ FROM sales;
 * berarti:
 semua kolom
 
-⚠️ Tapi sebagai Data Analyst...
+Tapi sebagai Data Analyst...
 
 SELECT * memang berguna ketika kamu sedang mengecek isi data.
 Tetapi ketika membuat analisis, lebih baik menyebutkan kolom yang memang dibutuhkan.
@@ -57,7 +57,7 @@ lebih jelas daripada:
 SELECT *
 FROM sales;
 
-🧠 Cara berpikir Data Analyst
+Cara berpikir Data Analyst
 Misalnya manager bertanya:
 "Saya ingin melihat produk dan jumlah barang yang terjual."
 Jangan langsung berpikir syntax.
