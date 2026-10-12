@@ -26,6 +26,8 @@ WHERE quantity > 10
 GROUP BY category
    ↓
 SUM(quantity)
+
+   
 Contoh HAVING
 
 Sekarang manager bertanya:
