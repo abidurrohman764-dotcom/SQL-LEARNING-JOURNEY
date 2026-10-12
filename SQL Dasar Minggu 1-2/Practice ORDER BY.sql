@@ -32,3 +32,11 @@ FROM sales
 WHERE price > 10000
 ORDER BY price DESC;
 
+Soal 6
+Manager berkata : "Tampilkan semua transaksi kategori sembako, lalu urutkan berdasarkan quantity tertinggi
+lalu harga terendah".
+SELECT *
+FROM sales
+WHERE category = 'Sembako'
+ORDER BY quantity DESC, price ASC;
+
